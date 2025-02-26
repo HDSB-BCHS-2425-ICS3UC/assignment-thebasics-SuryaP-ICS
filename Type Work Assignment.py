@@ -5,4 +5,8 @@ float_variable = 3.14 #float
 str_variable = ("hello world") #string
 boolean_variable = True #boolean
 
+#Print Variables
+print("integer variable:",int_variable)
+print("float variable:",float_variable)
+
 
