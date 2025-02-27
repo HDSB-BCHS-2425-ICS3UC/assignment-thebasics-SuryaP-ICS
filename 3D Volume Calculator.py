@@ -27,3 +27,11 @@ elif O == "cone":
     alt = ab + als
     volume = (ab * Hei) / 3
     print("this is your volume:", volume)
+    # Square-based pyramid
+elif O == "pyramid":
+    ba = float(input("What is the base of the pyramid?: "))
+    hi = float(input("What is the height?: "))
+    so = float(input("What is the slope of the pyramid?: "))  # `so` is not used
+    arb = pow(ba, 2)
+    volum = (arb * hi) / 3
+    print("this is your volume:", volum)
